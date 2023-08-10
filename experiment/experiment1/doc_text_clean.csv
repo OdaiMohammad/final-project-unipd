@@ -1,0 +1,1041 @@
+sentence
+"Widely dispersed fragmented populations are a challenge to monitor because sub-
+population sizes may be very small, dif ﬁcult to access and time consuming to sam-
+ple regularly."
+"We use the coconut crab ( Birgus latro ) on Pemba, United Republic
+of Zanzibar as a case study for estimating highly fragmented populations and meta-population sizes."
+"The species is a very large terrestrial decapod threatened by
+exploitation and habitat alteration and now classi ﬁed as vulnerable."
+"We developed
+an integrated model to analyse capture-mark-recapture (CMR) data from ﬁve sites
+jointly with count data from 24 sites to estimate site-level densities and populationsizes, predicted total population size across the Pemba archipelago, and investigated
+the effect of six predictors of human in ﬂuence on density."
+"We ﬁtted separate
+models to test the effect of the same predictors on raw counts and individual bodymass."
+"We estimate the total population of coconut crabs on the Pemba archipelago
+to be c. 6700 terrestrial individuals."
+"We show that government protection generally
+affects crabs positively, whereas presence of agriculture negatively affects theirdensities."
+"This study highlights that time-consuming CMR data can be leveraged to
+estimate densities on less visited sites, and that fully protected islands are critical
+for maintaining relatively high population densities."
+"Our overall population estimatesuggests that Pemba still hosts a viable coconut crab population in a part of itsrange where the species is otherwise in steep decline.
+"
+"Introduction
+As populations become ever more fragmented, they are
+increasingly challenging to monitor because isolated subpop-
+ulations can be dif ﬁcult to reach and their dwindling sizes
+can result in sparse data being collected."
+"Nonetheless, the
+sizes of small subpopulations are important especially if they
+are connected through immigration and are capable of reco-lonizing each other (metapopulations, Hanski & Simberl-
+off,1997 )."
+"Sometimes fragmented populations enjoy partial
+protection in one part of their range but not elsewhere andthese protected subpopulations can potentially act as sources
+in a metapopulation (Hansen, 2011 )."
+"This makes it particu-
+larly important to know the subpopulation sizes of thosefragments under protection.
+"
+"One major challenge in estimating population size is that
+of imperfect detection —we cannot know whether we havecounted all individuals in the sampled population, and in
+most cases, we likely have not."
+"Capture-mark-recapture(CMR) models (Otis et al .,1978 ) are the gold standard of
+abundance estimation but require repeated visits to sampling
+sites, which is challenging if the number of subpopulationsto monitor is numerous and their locations are remote or
+widely dispersed."
+"These models also require suf ﬁcient indi-
+viduals to be captured and recaptured, which is especiallydifﬁcult to achieve at depauperate sites.
+"
+"Jointly analysing data from all subpopulations in a hierar-
+chical CMR model (Converse & Royle, 2012 ) can address
+the challenges of sparse data for some subpopulations."
+"These
+models allow sharing information on detection probability
+among subpopulations, thus enabling detection-corrected esti-mates of abundance even for subpopulations where data aresparse."
+"In the context of metapopulation estimation, however,
+subpopulation level observations may range from CMR data
+Animal Conservation /C15/C15(2023) /C15/C15–/C15/C15ª2023 The Authors."
+Animal Conservation published by John Wiley & Sons Ltd on behalf of Zoological Society of London.
+"1
+"
+"This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any
+medium, provided the original work is properly cited, the use is non-commercial and no modiﬁcations or adaptations are made."
+Animal Conservation.
+"Print ISSN 1367-9430 to single counts, due to logistical constraints and/or small
+size of some subpopulations."
+"Integrated models can combine
+such disparate data within a single statistical model (e.g.
+Schaub & Abadi, 2011 ; Zipkin et al.,2021 )."
+"The framework
+leverages high-resolution information often only available at
+small scales (e.g. CMR data, systematic species occurrence
+surveys) and combines it with lower resolution data (e.g.counts, opportunistic occurrence data) that can be collectedat larger scales, to assess population status and dynamics at
+large spatio-temporal scales (e.g. Chandler & Clark, 2014 ;
+Paciﬁciet al.,2017 )."
+"This makes integrated modelling a suit-
+able framework for metapopulation estimation and
+monitoring.
+"
+"Here, we present a test case of subpopulation estimation
+using a rare arthropod species to exemplify how integrating
+CMR and count data can address the challenges of data dis-
+parity among subpopulations."
+"We further provide a baselineestimate of the coconut crab ( Birgus latro ) population on
+Pemba, Zanzibar, one of its last strongholds in the Western
+Indian Ocean, against which future monitoring efforts can becompared.
+"
+"Coconut crabs are the world ’s largest terrestrial arthropod
+reaching 4 kg in body mass and 1 m in leg span (Brown &
+Fielder, 1991 ; Drew et al .,2010 )."
+"Following a short larval
+stage at sea, individuals move on to land, where very young
+stages carry an empty mollusc shell, and generally remain
+in coastal scrub or forest for the rest of their lives, neverentering water again (Brown & Fielder, 1991 )."
+"Coconut
+crabs are almost immune to natural predation but are threat-
+ened by anthropogenic exploitation for food and habitatdestruction owing to agricultural expansion and coastal
+housing and hotel development (Cumberlidge et al .,2022 ).
+"
+"Now, virtually extirpated from continental landmasses, coco-nut crabs are mostly found on island archipelagos across theIndian Ocean and Western Paci ﬁc Ocean."
+"As a result of
+these threats, this species has recently been upgraded from
+‘Data De ﬁcient ’to ‘Vulnerable ’on the IUCN Red List
+(Cumberlidge, 2020 ).
+"
+"Coconut crab populations on most island archipelagos in
+the Western Indian Ocean are in steep decline or else extir-pated (Cumberlidge et al .,2022 )."
+"Despite this, the species
+still survives on some coastal East African islands and on
+Unguja and Pemba, Zanzibar, although principally on outly-ing smaller islands off the Zanzibari coastline (Caroet al .,2021 ; Hamad et al .,2023 )."
+"Here, our aim was to:
+Estimate the abundance and density of coconut crabs on the
+main island of Pemba and its outlying islands (Fig. 1),
+investigate the effect of six predictors of human in ﬂuence on
+density and derive a total population size for the Pemba
+archipelago."
+"To do so, we build an integrated model combin-ing data from CMR surveys of ﬁve coconut crab subpopula-
+tions with count surveys from 24 additional subpopulations
+within or near the Pemba archipelago."
+"We focus here on esti-
+mating population sizes, but the ﬂexible modelling approach
+can form the basis of regional metapopulation monitoring,
+for harvesting or setting quotas, and can be adapted to othermetapopulation estimation situations."
+"Materials and methods
+Study sites
+The research was principally conducted on the island ofPemba and its outlying islands in the United Republic ofZanzibar archipelago, across 29 sites."
+"Pemba (988 km
+2,2 6
+of the sampled sites) is an oceanic island lying 50 km east
+of the Tanzania mainland."
+The island is hilly with fertilesoil.
+"Pemba is dominated by small-scale farming of cassava,
+tomatoes, bananas, with cloves ( Syzygium aromaticum )a s
+the cash crop."
+It has a large human population of 400 000people.
+"Unguja (1666 km
+2, one sampled site), the other main
+island in the Zanzibar archipelago, is a Landbridge island
+lying 59 km to the south."
+"The island is ﬂat and relies
+heavily on the tourism industry as well as ﬁshing and con-
+siderable seaweed farming; 900 000 people live there."
+"Two
+uninhabited islands in the Dar es Salaam Marine Reserve
+system were also sampled for crabs (Fig. 1); these islands
+comprise sandy and rocky karst beaches with mostly sandy
+interiors.
+"
+"Field data collection
+TC conducted searches of adult coconut crabs (de ﬁned as
+individuals that had lost their gastropod shell and were fully
+terrestrial) on all sites (Fig. 1), several repeatedly, between
+July 2016 and August 2022; JZ surveyed Misali Island in
+April 2022; and L-MG visited Chumbe in June –July 2022
+(for details on surveys, see Appendix S1, Tables S1and S2).
+"
+"Survey periods were principally in the early part of the dry
+season to maximize the number of nights that could be spent
+searching in the ﬁeld, except for Misali which was surveyed
+in the wet season."
+"Sampling sites were identi ﬁed based on
+local information, and areas to search within those sites were
+chosen by local ﬁshermen or farmers familiar with the area
+and who usually took part in the surveys."
+"Groups of betweenone and six persons (mean =2.57/C61.26 persons; N=154
+nights) conducted crab surveys along transects or within
+search areas."
+"Surveyors, spread out and equipped withtorches, walked slowly starting between 19.15 and 20.30 h
+and continued for 2 –4.5 h."
+"We recorded total search effort
+daily as total time spent in the ﬁeld.
+"
+"Once detected, each crab was captured and placed in a
+bucket, weighed, sexed and measured."
+"Before release, it was
+photographed and marked with a uniquely assigned numberusing a white marker (Edding 950 industrial painter)"
+"lastingthe length of a survey (maximum 3 months), so that subse-
+quent recaptures could be identi ﬁed (see also Oka et al .,
+2013 ).
+"
+"Surveys consisted of one or multiple visits (de ﬁned as one
+night searching, also referred to as sampling occasions) to the
+same site within a season (between December and April, orbetween June and September)."
+"There were four types of sur-
+veys: (i) on Pemba mainland sites conducted by TC (Fig. 1),
+usually repeated sampling occasions separated by a minimumof a week, with total survey length not exceeding 3 months; (ii)
+2Animal Conservation /C15/C15(2023) /C15/C15–/C15/C15ª2023 The Authors."
+Animal Conservation published by John Wiley & Sons Ltd on behalf of Zoological Society of London.
+"Coconut crabs on Zanzibar T. Caro et al.
+ 14691795, 0, Downloaded from https://zslpublications.onlinelibrary.wiley.com/doi/10.1111/acv.12896 by CochraneItalia, Wiley Online Library on [10/08/2023]."
+"See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ on islands off the coast of Pemba (where additional sampling
+occasions would be prohibitively dif ﬁcult) by TC and RSR,
+either one night, or two consecutive nights; (iii) on Chumbeisland by TC up to ﬁve consecutive nights, with one survey
+consisting of two such bouts within 2 months; and (iv) on Mis-
+ali and Chumbe islands by JZ and L-MG, repeat sampling occa-sions, approximately twice or once per week, respectively, andover a span of 3 –11 weeks respectively.
+"
+"Modelling framework
+We approached our objective in two steps, implemented in a
+Bayesian framework: (1) Fitting an integrated model that
+combines closed population CMR modelling (Otiset al .,1978 ) for a subset of surveys with appropriate data,
+and N-mixture modelling (Royle, 2004a ) for the remaining
+surveys, to estimate density and its drivers across sampledsites; (2) using posterior prediction from the integrated modelto extrapolate abundance to suitable habitat throughout the
+sampled sites.
+"
+"Population closure
+CMR models assume that populations are closed (i.e. do
+not change) over the course of a survey."
+"We are con ﬁdentthat within the maximum 3-month survey duration recruit-
+ment into the sampled ‘adult ’population (having discarded
+their mollusc shell) was negligible since very small individ-uals were rarely caught."
+"Crabs are nocturnal so suffer little
+avian predation and there are virtually no mammalian pred-
+ators on small islands in our study area (Foleyet al .,2014 ) with the possible exception of rats ( Rattus
+rattus ) on some islands (e.g. Mapanya and Misali) that
+may take small coconut crabs ( <0.15 kg)"
+"lacking mollusc
+shells."
+"The main source of mortality of coconut crabs isharvest by humans but offtake is infrequent and irregular
+on most islands even where they are persecuted by chil-
+dren, with only two dead crabs encountered during 7 yearsof study."
+"Closure can also be violated by movement off
+the search area."
+"Several sampled sites were on very small
+islands ( <20 ha) or surrounded by unsuitable habitat (see
+deﬁnition below) with little room for crab movement
+(<15 ha) such as Verani (see Table 1); however, there may
+have been movement off the search area on larger islands
+(e.g. KP Matumbini, Misali, Fundo and Ngao)."
+"This is acommon problem in studies applying CMR or N-mixture
+models; however, as long as movement in and out of the
+search area is random, this lack of closure does not biasestimates of the number of animals that use the search area
+(Kendall, 1999 ).
+"
+"Figure 1 Sites where coconut crabs ( Birgus latro ) were sampled on Zanzibar, Tanzania, showing Pemba to the north and Unguja to the
+south."
+Also shown are Bongoyo and Mbudya islands near to Dar es Salaam.
+"Insert shows Pemban sites; locations in capitals refer to sites
+from which capture-mark-recapture data were obtained.
+"
+Animal Conservation /C15/C15(2023) /C15/
+C15–/C15/C15ª2023 The Authors.
+Animal Conservation published by John Wiley & Sons Ltd on behalf of Zoological Society of London.
+3T. Caro et al.
+"Coconut crabs on Zanzibar
+ 14691795, 0, Downloaded from https://zslpublications.onlinelibrary.wiley.com/doi/10.1111/acv.12896 by CochraneItalia, Wiley Online Library on [10/08/2023]."
+"See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ Accounting for crab movement
+For all analyses, we de ﬁned the sampled area as the area
+physically searched (henceforth, search area) plus a 100-mbuffer, from which we removed unsuitable habitat, de ﬁned
+as cleared agricultural land, mangroves, seawater or houses.
+"
+"Buffering is necessary to account for individual movementon and off the search area (Otis et al .,1978 ; Wilson &
+Anderson, 1985 )."
+"Typically, these buffers are thought to rep-
+resent an average home-range radius but information oncoconut crab movement is sparse."
+"Typical movement radiirange from <10 m (Fletcher, Brown, & Fielder, 1990 ; Helf-
+man, 1973 ; Oka et al.,2016 ) to 62 m (Krieger et al.,2012 ),
+with long distance movements of several km (Krieger
+et al .,2012 )."
+"In one of our own surveys, the maximum
+recapture distance was 226 m, with an average of 46 m. Tobe conservative in the sense of not overestimating crab
+populations, we opted for a 100-m buffer."
+"This is necessarily
+subjective and choosing a different buffer would alter esti-mates of densities and population sizes."
+"By adopting oneconsistent buffer, we aim to make density estimates compara-
+ble across all surveyed locations."
+For some (particularly non-Table 1
+"Summary of survey effort for coconut crabs ( Birgus latro ), catch per unit effort (CPUE =individuals caught per 100 min sampled,
+averaged over all surveys at a site), and estimates of density (D; crabs/ha) and abundance across all suitable habitat at a site (posterior
+mode and upper/lower 90% Bayesian credible interval limits, 90% BCI) from integrated model of capture-mark-recapture (CMR) and count
+data, for 29 sites in/near the Pemba Archipelago, Tanzania."
+"Sampled area =area physically searched for crabs plus 100-m buffer minus
+unsuitable habitat (ha); site area =total area of suitable habitat at a site (ha); Surveys (nights)"
+"=total number of surveys (total nightly visits)
+Site Sampled area Site area Surveys (nights) CPUE Density (90% BCI)"
+"Abundance (90% BCI)
+Protected islands
+Chumbea,b3.78 15.8 5 (36) 11.49 41.97c(31.93–55.92) 214.83 (163.41 –286.21)
+Misalia13.18–23.13d83.8 7 (23) 6.75 2.56 (1.59 –5.75) 214.21 (133.51 –482.07)
+Bongoyob30.15 70.5 1 (2) 3.32 2.35 (1.43 –6.47) 165.97 (100.50 –456.43)
+Mbudyab27.25 55.4 1 (2) 4.81 3.74 (2.22 –9.28) 206.99 (123.08 –514.23)
+Vicinity of hotels
+Swahili Diversa29.6 29.6 8 (27) 3.29 3.12 (2.03 –5.46) 92.32 (60.05 –161.72)
+Verania13.3 13.3 6 (17) 1.81 1.98 (1.31 –4.09) 26.3 (17.40 –54.37)
+Pemba Paradise 1.3 1.3 2 (2) 1.91 13.6 (6.51 –49.62) 17.67 (8.47 –64.51)
+"
+"Manta lighthouse 19 19 1 (1) 2.94 2.84 (1.37 –8.92) 53.96 (26.12 –169.45)
+Shamiani 50.37 383 2 (4) 1.01 0.45 (0.24 –1.26) 172.91 (92.86 –484.15)
+Pemba mainland
+Kigomashaa25.9 25.9 8 (21) 2.92 4.97 (3.09 –11.77) 128.72 (80.08 –304.78)
+"
+"Papindi 8 8 2 (3) 1.82 4.71 (2.45 –11.98) 37.7 (19.57 –95.80)
+Manta Cave 1 1 2 (3) 1.11 14.22 (5.82 –47.66) 14.22 (5.82 –47.66)
+Muwambe 124.55 124.55 1 (1) 0 0.07"
+"(0.02 –0.66) 8.16 (2.98 –82.70)
+Inhabited islands
+Fundo 79.4 801 5 (10) 3.94 1.11 (0.79 –1.90) 892.12 (636.72 –1521.43)
+"
+"Matumbini village KP 16.4 386 1 (1) 0.69 0.64 (0.23 –4.25) 245.61 (90.51 –1642.12)
+Kojani 14.1 14.1 1 (1) 2.5 2.46 (1.04 –9.40) 34.74 (14.62 –132.59)
+"
+"Ngao 47.61 476 2 (2) 1.23 0.5 (0.24 –1.67) 236.57 (113.64 –796.67)
+"
+"Kokota 18.82 79.4 3 (3) 2.82 3.33 (2.08 –6.78) 264.22 (165.23 –538.10)
+Uvinje 26.05 87.9 1"
+"(1) 0 0.18 (0.06 –2.19) 16.03 (5.29 –192.84)
+"
+"Funzi 35.37 88 1 (1) 0 0.17 (0.06 –1.85) 14.53 (4.88 –162.44)
+Uninhabited islands
+Jombe KP 36.05 66.6 4 (4) 5.65 3.51 (2.34 –6.17) 233.65 (156.02 –410.74)
+Matumbini KP 43.74 731 4 (5) 6.64 3.71 (2.66 –6.51) 2713.59 (1948.04 –4762.20)
+"
+Matumbini lighthouse 9.15 75.8 1 (1) 1.33 1.05 (0.41 –8.18) 79.81
+"(31.40 –620.41)
+"
+"Kashani 11.89 28.2 1 (1) 1 0.83 (0.32 –5.97) 23.54 (8.93 –168.49)
+"
+"Vikunguni 8.4 15.3 1 (1) 2.07 3.1 (1.44 –13.52) 47.42 (22.11 –206.87)
+Mapanya 2.52 5 1 (1) 2.5 8.48 (3.65 –40.57) 42.41 (18.27 –202.83)
+"
+"Usubi 14.8 14.8 1 (1) 0 0.29 (0.07 –3.46) 4.26 (1.10 –51.21)
+"
+"Hamisi 2.78 2.7 1 (1) 0 0.52 (0.12 –8.87) 1.4 (0.33 –23.95)
+"
+"Mbali 46.98 58.1 1 (1) 0 0.15 (0.05 –1.65) 8.78 (2.84 –95.86)
+Pemba archipelago 6687.97 (5050.58 –10443.55)
+"
+"aSite with capture-mark-recapture surveys.
+"
+"bSites not part of the Pemba archipelago.
+"
+"cDensity only for lodge area (area of highest density on the island).
+"
+"dBased on three transects and one search area.
+"
+4Animal Conservation /C15/C15(2023) /C15/
+C15–/C15/C15ª2023 The Authors.
+Animal Conservation published by John Wiley & Sons Ltd on behalf of Zoological Society of London.
+"Coconut crabs on Zanzibar T. Caro et al.
+ 14691795, 0, Downloaded from https://zslpublications.onlinelibrary.wiley.com/doi/10.1111/acv.12896 by CochraneItalia, Wiley Online Library on [10/08/2023]."
+"See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ island) sites, sampled areas covered all the suitable habitat
+and were thus equal to the total area of suitable habitat of
+that site."
+"But many (generally island) sites had suitable habi-
+tat beyond the sampled area."
+"For these sites, we de ﬁned the
+total area of suitable habitat as the total island area minus
+area covered by houses, agriculture or mangroves."
+"Sampled
+areas and total area of suitable habitat were mapped out inGoogle Earth (14 December 2015 version) to determine theirsize in ha.
+"
+"Integrated model
+We developed a hierarchical integrated model that allowed
+us to estimate site-level abundance and density combining
+data from the different types of surveys described above."
+"Broadly, we divided surveys into CMR and count surveys.
+"
+"Three issues prevented us from treating all surveys as CMR
+surveys: (1) before 2018, surveys did not reliably keep trackof individual crab identity; (2) many surveys consisted of asingle visit; (3) many surveys had no recaptures."
+"We identi-
+ﬁedﬁve sites with 22 post-2017 multiple-visit surveys and
+at least one recapture (Appendix S1, Table S1): Swahili
+Divers, Verani, Kigomasha (Pemba mainland), Chumbe and
+Misali (islands, Fig. 1)."
+"For these surveys, we developed a
+CMR observation model."
+"For all other count surveys, wedeveloped an N-mixture (Royle, 2004a ) observation model.
+"
+"Whereas it is conceptually possible to develop an all-CMR
+model including single-visit surveys and surveys withoutrecaptures, such a model would have to exclude 16 pre-
+2018 surveys (or 21% of all surveys), which is not
+desirable, especially in a sparse data situation like ours."
+"Moreover, the loss of information in N-mixture models (dueto ignoring individual identity) only occurs in count surveys
+with >1 visits; only 38% of count surveys had >1 visit.
+"
+"Finally, trials with an all-CMR model suggested it would bemuch slower to ﬁt (i.e. multiple days with a 2.6 GHz pro-
+cessor with 64 GB RAM if chains can be run in parallel)
+than our combined model (several hours)."
+"An all-N-mixturemodel, on the other hand, would forego the information
+contained in the more detailed individual encounter data
+used in CMR models."
+"Therefore, we opted for this hybridapproach.
+"
+"The ecological model shared by all surveys describes
+expected abundance in survey j,λ
+j,a s
+logλj/C0/C1
+¼γ0þlog area j/C0/C1
+þεsj½/C138 (1)
+Here, log is the natural logarithm, γ0 is an overall inter-
+cept, log area j/C0/C1
+is an offset to account for variation in size
+of the sampled area (ha) across surveys and εsis a site-level
+random effect (Normally distributed with mean 0 and
+SD=σ:ran) to account for surveys being nested within sites,
+s. Average site-level density (crabs/ha) can be derived as
+Ds¼expγ0þεs ðÞ ."
+"This ‘Null model ’can be expanded to
+include site-level covariates (see Drivers of density)."
+"Model-
+ling of the latent realized survey-level abundance, Nj,
+depends on the observation model."
+"CMR observation model
+For the 22 surveys identi ﬁed as suitable for CMR analysis, we
+compiled individual encounter histories, marking whether or
+not an individual crab ihad been detected ( yijk¼1) or not
+(yijk¼0) on visit knested within survey j."
+"These observations
+are modelled as Bernoulli random variables with success
+probability =detection probability, pjk."
+"We estimated pjkon
+the logit scale as a function of visit-level effort (duration of aﬁeld visit in minutes, divided by 100 to avoid numerical issues
+with very small coef ﬁcients)."
+"Because survey-level data were
+fairly sparse (Appendix S2, Table S1), we estimated detection
+parameters (intercept and effect of effort) for each site but keptthem constant for all surveys within a site."
+"Most searches were
+implemented by TC, except for three on Misali by JZ and one
+on Chumbe by L-MG."
+"To account for potential different detec-tion parameters due to different observer skill level and varia-
+tion in sampling protocol, we estimated separate detection
+parameters for observers; for simplicity, that is omitted from thefollowing equation.
+"
+"logit p
+jk/C16/C17
+¼α0sj½/C138þαsj½/C138/C2Effort jk
+Here, α0 and αare site (and observer)-speci ﬁc intercepts
+and effort effects."
+"We arrived at the detection model structure
+using maximum likelihood analysis of only the CMR surveydata and AIC-based model selection, described in
+Appendix S2.
+"
+"We estimated abundance for each CMR survey using data
+augmentation (Royle, Dorazio, & Link, 2007 )."
+"In data aug-
+mentation, the n
+jobserved encounter histories for each sur-
+vey are augmented up to a large number, Mj, with all-0
+encounter histories representing potential individuals."
+"The
+model then estimates an inclusion parameter for each indi-
+vidual, zijas a Bernoulli random variable (1 if the individual
+is part of the population and 0 otherwise) with inclusionprobability ψ
+j, and abundance for a given survey Njis
+derived as the sum of all zj."
+"To link ψjto the expected
+abundance model (Equation 1), we calculated ψjasλj=Mj
+(note that this requires setting Mjlarge enough that ψjnever
+exceeds 1)."
+"We found that this model was insuf ﬁcient to
+account for variation in Njamong surveys."
+"We therefore
+modelled ψjas a beta random variable with mean
+ψj¼λj=Mjand standard deviation σψ.
+N-mixture observation model
+For all surveys identi ﬁed as not suitable for CMR analysis,
+we compiled the number of crabs detected at each visit, mjk.
+"
+"The N-mixture model treats mjkas a binomial random vari-
+able with number of trials =abundance Nj, and success
+probability =detection probability pjk:
+mjk∼Binomial Nj,pjk/C16/C17
+logit pjk/C16/C17
+¼β0p"
+:index j½/C138þβp:index j½/C138/C2Effort
+"jk
+Animal Conservation /C15/C15(2023) /C15/"
+C15–/C15/C15ª2023 The Authors.
+Animal Conservation published by John Wiley & Sons Ltd on behalf of Zoological Society of London.
+5T.
+Caro et al.
+"Coconut crabs on Zanzibar
+ 14691795, 0, Downloaded from https://zslpublications.onlinelibrary.wiley.com/doi/10.1111/acv.12896 by CochraneItalia, Wiley Online Library on [10/08/2023]."
+"See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ Here, p.index is a site-speci ﬁc index for pre-2018 surveys
+from the ﬁve sites included in the CMR observation model
+(so that the site-speci ﬁc detection parameters are used); for
+all other surveys, β0 and βwere de ﬁned as the average
+detection parameters ( α0 and α) over all surveys implemen-
+ted by TC (as all non-CMR surveys were implemented by
+TC)."
+"As these averages are calculated at each iteration of theMCMC algorithm, error in α0 and αis fully propagated to
+β0 and β.
+"
+"We modelled abundance N
+jas a negative binomial ran-
+dom variable with mean λjfrom equation 1:
+Nj∼NegBin λj,r/C0/C1
+Here, ris the overdispersion parameter of the negative
+binomial distribution."
+"The negative binomial distribution canbe thought of as a Poisson-Gamma mixture, where the Pois-
+son mean is a random variable with a Gamma distribution.
+"
+"Thus, this realized abundance model mirrors the one for theCMR observation model, treating expected abundance as arandom variable to better account for variation in N
+jamong
+surveys.
+"
+"Drivers of density
+In addition to the ‘Null model ’for expected abundance
+described in equation 1, we also ﬁt models (with identical
+offset and random effect structure) testing the effect of six
+site-speci ﬁc binary covariates on density."
+"This analysis
+expands on a previous analysis of catch per unit effort(CPUE) data and body mass across a subset of 12 sites(Caro et al.,2021 )."
+"According to those results, we expected
+density to be lower at sites with presence of ﬁshermen
+camping overnight and nearby permanent settlements (i.e.within walking distance: 3 km); and higher at sites with
+presence of agriculture (beans, maize, tomatoes or casava
+planted in adjacent agricultural land), unof ﬁcial protection
+within or near hotel grounds, being located on islands which
+are less in ﬂuenced by humans, and having government pro-
+tection."
+"We only ﬁt single-covariate models, because number
+of sites in some of these binary categories was low(Appendix S1, Table S2).
+"
+"Posterior prediction of population size in suitable
+habitat
+To obtain estimates of total abundance across all sampled
+sites, N:totS, for all sites except Chumbe, we multiplied site-
+level density Dswith the total area of suitable habitat at that
+site."
+"For Chumbe, all searches were performed in the ‘lodge
+area ’, the area of highest crab density on the island."
+"To esti-
+mate population size for the remaining northern and southern
+parts of the island, we used reported proportions of crabscaptured (73.8% in the lodge area, 8.9% in the north, 17.3%
+in the south) in an earlier study that sampled all three
+regions (Kilstromer & Bergwall, 2013 )."
+"We calculated
+expected abundance in the lodge area, N
+L, according to
+equation 1; expected abundance in the south and north,NSN¼NL8:9þ17:3 ðÞ
+73:8, and N:tot¼NLþNSN."
+"This approach
+depends on the assumption that (a) Kilstromer & Berg-
+wall ( 2013 ) searched similar sized areas in all regions so that
+number of crabs captured was not affected by size of thesampled area and (b) that capture probability was similar in
+the three regions."
+"Neither assumption can be tested; but the
+alternative of using lodge-area density for the entirety ofChumbe would severely overestimate total population size."
+"Finally, to obtain total population size for the Pemba archi-
+pelago, N
+Pemba, we summed N:tot over all sites that are part
+of the archipelago (Table 1)."
+"We performed all calculations
+on 5000 randomly selected posterior samples of the inte-
+grated model without covariates.
+"
+"Note that our focus is on estimating population size,
+rather than change in population over time."
+"We therefore
+base our abundance estimate on the site-level expected abun-
+dance, which is constant over time."
+"This means that subpop-ulation estimates refer to different time scales (for single
+survey sites, they represent that point in time only, whereas
+for multiple survey sites, they represent an average over sur-veys)."
+"As there is no survey period in which all sites werevisited, estimating abundances for a uni ﬁed time frame is
+not possible with the present model and data.
+"
+"Models of crab counts and body mass
+Further expanding on the analysis by Caro et al.,2021 ,w e
+also tested the effect of the six potential drivers of densityon raw crab counts and body mass (in kg)."
+"We analysed raw
+counts to ensure that results can be compared to potential
+future studies that may not want (or be able) to estimateabundance/density."
+"We modelled survey-level counts (i.e.aggregated across visits) as negative binomial random vari-
+ables with total survey-level effort as offset."
+"This is akin to
+modelling counts per unit effort, where a unit effort is100 min of ﬁeld work."
+"Body mass is a measure of body size
+(Sato et al .,2013 ) which is a predictor of reproductive
+potential of coconut crabs (e.g. Sato & Suzuki, 2010 ) and
+thus an additional important indicator of subpopulation sta-
+tus."
+"We modelled square root-transformed body mass as nor-
+mal random variables; we allowed for site-speci ﬁc residual
+variances to account for heteroscedasticity."
+"We only includedbody mass measures from surveys carried out by TC to
+maintain consistency."
+"We expected the same effects for
+counts and body mass as described for density."
+"All modelscontained a site random effect; models for body mass also
+contained an effect of sex since the species is sexually
+dimorphic.
+"
+"Model implementation
+We implemented all models in Nimble (de Valpineet al.,2017 ) using the R package nimble ver. 0.12.2"
+"(de Val-
+pine et al.,2022 ) in R ver."
+"4.2.1 (R Core Team, 2022 )."
+"We
+ran three parallel chains, each with 100 000 (integrated
+models) or 75 000 (count, body mass models) iterations, ofwhich we discarded 50 000 as burn-in and thinned the
+remaining iterations at a rate of 10."
+"We con ﬁrmed chain
+6Animal Conservation /C15/C15(2023) /C15/"
+C15–/C15/C15ª2023 The Authors.
+Animal Conservation published by John Wiley & Sons Ltd on behalf of Zoological Society of London.
+"Coconut crabs on Zanzibar T. Caro et al.
+ 14691795, 0, Downloaded from https://zslpublications.onlinelibrary.wiley.com/doi/10.1111/acv.12896 by CochraneItalia, Wiley Online Library on [10/08/2023]."
+"See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ convergence by visually inspecting traceplots and by calcu-
+lating the Gelman –Rubin statistic (Gelman & Rubin, 1992 ),
+which was ≤1.1 for all chains in all models."
+"We present
+coefﬁcients of the covariate models as posterior mean, SD,
+90% Bayesian credible intervals (BCI) and proportion of
+posterior samples above/below 0 ( p(≠0))."
+"We used the 90%
+BCI, rather than the more commonly used 95% BCI,because its limits tend to be more stable (McElreath, 2018 ).
+"
+"For density and abundance estimates, we present the poste-
+rior mode and 90% Bayesian credible interval (BCI) because
+posterior distributions were right-skewed (the mean would bean overestimate of the location of the posterior and the
+SD
+would incorrectly imply symmetric uncertainty)."
+"A link tothe data and code to ﬁt all models can be found in the Data
+Availability statement below.
+"
+"Results
+The 22 surveys with suitable data for CMR analysis con-tained encounter histories for 624 individual crabs, of which
+93 were recaptured at least once (Appendix S2, Table S1).
+"
+"For the remaining 53 surveys, capture numbers per samplingoccasion ranged from 0 (11 surveys across nine sites) to 19;
+six sites (all surveyed only once) had no captures at all
+(Appendix S1, Table S1).
+"
+"Coconut crab density
+Estimates of density from the integrated model without cov-
+ariates for the Chumbe lodge area (41.97 crabs/ha; 90%BCI: 31.93 –55.92) (Table 1) were three times higher than
+the next site and much higher than elsewhere."
+"Other sites
+had densities <10 crabs/ha, except for Manta Cave, Pemba
+Paradise (a hotel site) and Mapanya island, likely due to
+small search areas and few visits (Appendix S1, Table S1).
+"
+"Abundance across suitable habitat
+Site-level (i.e. subpopulation) abundance estimates across
+suitable habitat from posterior predictions ranged from 1.4individuals (90% BCI: 0.33 –23.95) on the small (2.7 ha)
+island of Hamisi to 2713.59 individuals (90% BCI: 1948.04 –
+4762.20) on the 731-ha uninhabited island of Matumbini KP.
+"
+"Uncertainty for many abundance estimates was high (widthof 90% BCI >>estimate) but decreased as the number of
+surveys at a site increased (Appendix S1, Figure S1)."
+"The
+total (meta-)population size of coconut crabs in the Pembaarchipelago was estimated at 6687.97 individuals (90% BCI:
+5050.58 –10443.55).
+"
+"Drivers of density
+The strongest predictor of crab density ( p(≠0)=0.98) was
+the presence of agriculture (Table 2); contrary to expecta-
+tions, agriculture affected density negatively."
+"Fishermen,hotels ( p(≠0)=0.96) and government protection ( p(≠0)
+=0.91) all affected density positively; for ﬁshermen, this
+again went against our expectations."
+"Effects of being on anisland or having nearby human settlements had less support
+(smaller coef ﬁcients, proportionally larger
+SD,p(≠0)≤0.87).
+"
+"Drivers of crab counts and body mass
+The strongest predictors of counts per unit effort (with p
+(≠0)≥0.98) were government protection (positive), presence
+of agriculture and settlements (both negative; Table 2)."
+"Ana-
+lysing the body mass of 795 crabs caught across 23 sites,government protection was the strongest predictor ( p(≠0)
+=1) and, as expected, affected body mass positively."
+"The
+presence of hotels also affected body mass positively ( p(≠0)
+=0.91; Table 2)."
+"Additional parameter estimates are pro-
+vided in Appendix S1, Tables S3(integrated model), S4
+(counts) and S5(body mass).
+"
+"Discussion
+We used an integrated model that leveraged spatially limited
+CMR data to estimate coconut crab subpopulation densitiesand sizes across 29 sites in and near the Pemba archipelago,
+many of which only had very sparse survey data."
+"The result-
+ing total metapopulation estimate suggests that the Pembaarchipelago still sustains an important population of this
+species.
+"
+"In the most westerly part of their range, coconut crabs
+have been mostly extirpated along continental coastlines
+from Somalia to Mozambique."
+"Recent surveys of the Sey-
+chelles archipelago report that coconut crabs are rare(reviewed in Cumberlidge et al.,2022 ; Poupin et al.,2013 );
+populations on the four main Comoro Islands have suffered
+rapid population declines of at least 50% over the past
+15–20 years."
+"Similarly, coconut crab populations on the
+Glorieuses Islands have declined by 80% over the past
+15–20 years and, if present at all, are found only in very
+low numbers on military bases (Poupin et al.,2013 )."
+"In the
+Mozambique Channel, coconut crabs are extremely rare on
+Juan de Nova Island and probably extirpated on Europa
+Island (Poupin et al .,2013 )."
+"Coconut crabs are presumed
+exterminated from Madagascar based on exhaustive surveys.
+"
+"The species has also been eliminated from Mauritius (where
+it was reported to be declining by Charles Darwin in 1836)and it is absent from Reunion and Rodrigues (see Cumber-lidge et al .,2022 for details)."
+"Nonetheless, the species still
+survives on Zanzibar (Caro et al.,2021 ).
+"
+"Two small islands off the coast of Zanzibar are formally
+protected and renowned for their large coconut crab popula-
+tions: Misali Island off the west coast of Pemba, and
+Chumbe Island off the south-west coast of Unguja (Fig. 1).
+"
+"Misali is largely undisturbed except for two temporary ﬁsher-
+men ’s camps, and currently has no hotels or villages; the
+Chumbe ecolodge, where crabs routinely feed on kitchenscraps, is known to sustain a high-density population."
+"Atleast ﬁve previous studies across 14 years have been con-
+ducted on Misali, with population estimates ranging from 93
+(Kassim, 2018 ) to 390 individuals (Merritt, 2014 ), with addi-
+tional estimates of 239 (Harlan, 2014 ) and 157 (Klein & St.
+Denis, 2016 )."
+"These numbers might indicate population
+Animal Conservation /C15/C15(2023) /C15/C15–/C15/C15ª2023 The Authors."
+Animal Conservation published by John Wiley & Sons Ltd on behalf of Zoological Society of London.
+7T. Caro et al.
+"Coconut crabs on Zanzibar
+ 14691795, 0, Downloaded from https://zslpublications.onlinelibrary.wiley.com/doi/10.1111/acv.12896 by CochraneItalia, Wiley Online Library on [10/08/2023]."
+"See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ ﬂuctuations over time, which is also suggested —for Misali
+and other CMR sites —by the considerable variation in
+survey-speci ﬁc abundance estimates (Appendix S1,
+Table S6)."
+"However, abundance estimates from these previ-
+ous studies are challenging to compare to our estimate of214 individuals as they refer to unde ﬁned and likely varying
+sampled areas, as well as different amounts of time spent in
+theﬁeld."
+"In the context of the Pemba archipelago, Misali
+harbours a considerable subpopulation of >200 individuals,
+with much larger subpopulations only occurring at sites
+which are c. 10 times greater in area (e.g. Fundo, Matumbini
+KP, Table 1).
+"
+"Studies of coconut crabs on Chumbe have centred on the
+ecolodge, which attracts individuals, and extrapolation oflodge density to the entire island generates in ﬂated abun-
+dance estimates: 1849 (Singh, 2010 ), 1761 (Roop, 2004 ),
+>1000 (Bruggers, 1999 ) and 354 (King, 2003 )."
+"Even com-
+pared to Kilstromer & Bergwall ( 2013 ), who sampled across
+the island and estimated a population of 446 crabs, our
+island-wide estimate of 214 individuals is low."
+"Our abun-
+dance estimate for the lodge area of 158 crabs (derived bymultiplying lodge area density from the integrated model
+with the sampled area) is lower than the 291 individuals cap-
+tured by Kilstromer & Bergwall ( 2013 ) in that area."
+"But it is
+premature to attribute this to a declining population, rather
+than population ﬂuctuations."
+"For example, rangers on
+Chumbe report some seasonal ﬂuctuations in crabs appearing
+at night around the kitchen area."
+"Further, we could beunderestimating the number of crabs in the northern and
+southern areas of the island, which is based on previously
+reported capture proportions (see Methods)."
+"Finally, our low
+estimates may in part be due to the choice of a 100-m bufferto de ﬁne the sampled area, leading to a conservative density
+estimate.
+"
+"Density in the Chumbe lodge area (42 crabs/ha), an area
+of provisioning, matched Christmas Island, Australia, with itshigh density of 16.3 –47.3 crabs/ha (Drew & Hansson, 2014 ).
+"
+"With few exceptions, densities across subpopulations were
+<5 crabs/ha and thus much lower than on Aldabra, a pro-
+tected island in the Seychelles, with an estimated average
+density of 23.7 crabs/ha (Appoo et al .,2021 )."
+"Accordingly,
+none of the Zanzibari sites, nor the entire Pemba archipel-ago, came close in population size to those reported for
+Christmas Island, with 1.257 million coconut crabs (Schil-
+ler,1988 ), or Eastern Indian Ocean sites of Morotai Island
+and Saja ﬁIsland in the Malaku Islands, Indonesia with
+20 163 and 43 434 individuals respectively (Widiyanti, Mar-
+soedi, & Setyohadi, 2016 ; Serosero et al.,
+2021 ).
+"
+"Body mass, densities and raw counts of coconut crabs at
+sites lacking formal protection were lower than on the four
+protected sites principally because no people other than
+rangers live permanently on those islands (see also Caroet al.,2021 )."
+"For density and body mass, informal protection
+offered by private hotels had similarly positive effects."
+"Lar-
+val size and hence larval survival increase with female bodymass and females only mate with males larger or equal inTable 2 Coefﬁcient estimates (Est.)"
+"for covariates affecting density (D, crabs/ha), counts per unit effort (1 unit =100 min in the ﬁeld) and
+body mass (kg) of coconut crabs ( Birgus latro ) across 29 sites (23 with body mass information) in/near the Pemba archipelago, Tanzania.
+"
+"Estimates from integrated model of CMR and count data (density), negative binomial mixed model (counts) and linear mixed model (square
+root transformed body mass)."
+"Posterior mean (Estimate) and standard deviation ( SD), lower (L) and upper (U) limits of 90% Bayesian credible
+interval (BCI), proportion of posterior samples above/below 0 ( p(≠0)) and average model-predicted difference (Diff) in response variable
+between sites with and without the predictor (with standard error, SE)
+Response PredictoraEst."
+SD LU p(≠0)
+"Diff ( SE)
+D Agriculture /C01.14 0.54"
+/C02.03
+/C00.32
+"0.98 /C03.22 (2.25)
+"
+"Fishers 1.07 0.64 0.03 2.18 0.96 3.17 (2.34)
+"
+"Hotel 1.04 0.61 0.06 2.06 0.96 3.48 (3.07)
+Protection 1.04 0.76 /C00.26"
+"2.27 0.91 4.98 (5.85)
+"
+Islands /C00.7 0.64 /C01.77 0.41 0.87 /C02.02
+"(2.1)
+Settlement /C00.34"
+0.61 /C01.35 0.6 0.72 /C00.90
+"(1.69)
+Counts Protection 1.04 0.36 0.48 1.65 1 4.44 (2.25)
+"
+Agriculture /C00.61 0.3
+/C01.11
+/C00.12
+0.98
+/C01.79
+"(0.98)
+Settlement /C00.59"
+0.28 /C01.04
+/C00.12 0.98
+/C01.77
+"(0.93)
+Hotel 0.4 0.37 /C00.19 1.02 0.87 1.09 (1.06)
+Fishers 0.37 0.35 /C00.18 0.96 0.86 1.00 (0.99)
+Islands 0.1 0.34 /C00.49"
+"0.62 0.63 0.25 (0.91)
+Body mass Protection 0.25 0.07 0.13 0.36 1 0.43 (0.13)
+"
+"Hotel 0.1 0.07 /C00.02 0.21 0.91 0.16 (0.12)
+Agriculture /C00.08 0.08 /C00.21"
+0.04 0.87 /C00.14
+"(0.12)
+"
+Fishers /C00.07
+0.07 /C00.19
+"0.05 0.84 /C00.12 (0.12)
+Islands"
+/C00.03 0.08 /C00.16 0.1 0.67
+/C00.06
+"(0.13)
+Settlement 0 0.08 /C00.12"
+0.13 0.51 0
+"(0.12)
+"
+aAgriculture:
+"Site with beans, maize or casava planted nearby; Fishers: Site with presence of ﬁshermen camping overnight; Hotel: Site with
+unofﬁcial protection offered within or near hotel grounds; Protection: site under government protection; Islands: site located on islands;
+Settlement: Site with nearby permanent settlements.
+"
+8Animal Conservation /C15/C15(2023) /C15/C15–/C15/C15ª2023 The Authors.
+Animal Conservation published by John Wiley & Sons Ltd on behalf of Zoological Society of London.
+"Coconut crabs on Zanzibar T. Caro et al.
+ 14691795, 0, Downloaded from https://zslpublications.onlinelibrary.wiley.com/doi/10.1111/acv.12896 by CochraneItalia, Wiley Online Library on [10/08/2023]."
+"See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ size (Sato & Suzuki, 2010 ), so these results suggest that pro-
+tection not only increases population density but also poten-
+tial reproductive output."
+"While the degree of connectivity
+among subpopulations through larval dispersal is unknown,this could point to protected subpopulations potentially serv-
+ing as sources for the metapopulation."
+"In contrast to ﬁndings
+from an earlier study (Caro et al.,2021 ), however, we found
+negative effects of agriculture on crab densities and counts."
+"This suggests that food supplements provided by local agri-
+culture may not be important as formerly suggested or that
+their positive effects are counteracted by agriculture reducingthe area of native coral rag forest where coconut crabs live.
+"
+"Also, against our expectations, the overnight presence of
+ﬁshermen was positively related to density (and, weakly,
+counts)"
+"but we expect this is an artefact of small
+sample size.
+"
+"Our data suggest the importance of government protection
+from exploitation and habitat encroachment."
+"Consequently,
+there is an urgent need to give more formal protection to
+additional islands in the Zanzibari archipelago under the aus-pices of the Departments of Forestry and Fisheries responsi-ble for conservation of biological resources on Zanzibar.
+"
+"Tourist lodges may bolster local crab densities by providing
+supplemental food resources (e.g. human food scraps) andhalting hunting pressure due to non-consumptive values of
+tourists in the area."
+"Whether this counters negative effects on
+population size due to habitat loss involved in hotel con-struction should be assessed in the future.
+"
+"We derived an estimate of c. 6700 adult coconut crabs liv-
+ing on the Pemba archipelago."
+"Although this ﬁgure does not
+match Indonesian sites of between 20 000 and 43 000 indi-
+viduals, it still represents a substantial population in the
+Western Indian Ocean."
+"In spite of its protection status, Misalihas been leased for hotel development which is a great con-cern for this and other species inhabiting coral rag habitat.
+"
+"Other sites with large population sizes (e.g. Matumbini KP,
+Fundo, Ngao and Kokota) are also being leased for invest-ment (Hamad et al .,2023 ) which involves removing large
+areas of native vegetation for hotel construction, and an
+inﬂux of people."
+"We are hopeful that this metapopulation
+estimate, unusual for an invertebrate (Caro, 2022 ), can be
+used by departmental of ﬁcials charged with conservation of
+Zanzibari wildlife to actively limit development of islandsites and establish additional protected sites for this andother coral rag species.
+"
+"Caveats
+"
+"In addition to the assumptions described in the Methods sec-
+tion"
+", our analysis also made strong assumptions about detec-
+tion probability, movement and densities of coconut crabs."
+"First, we used average detectability of crabs from ﬁve sites
+to inform detectability at sites without CMR surveys."
+"Detec-
+tion parameters varied among the ﬁve sites with CMR esti-
+mates."
+"Using the same mean parameters for all non-CMRsites may in ﬂate differences in density estimates among sites.
+"
+"Still, in the absence of data suitable for estimating site-
+speciﬁc parameters, average parameters from sites sampledwith the same ﬁeld methods represents the best available
+information."
+"Second, our decision to buffer all sampled areas
+by 100 m implies that crab movements are comparable
+across all sites."
+This may be violated if differences in eco-logical conditions across sites affect crab movements.
+"Again,
+absence of site-speci ﬁc movement information (and sparsity
+of movement information in general) precluded morenuanced buffering."
+"In general, a more robust approach todensity estimation, in which density does not depend on a
+subjectively chosen buffer, is preferable spatial capture –
+recapture modelling (SCR, Royle et al.,2015 )."
+"The approach
+also allows animal movement onto and off the search area, a
+violation of the geographic closure assumption in conven-
+tional CMR that was likely present at some sites."
+"Thisrequires recording spatial survey effort and capture locations
+of individuals and was not feasible in this study, but should
+be considered for future surveys."
+"Models integrating SCRand other data types have been developed (e.g. Chandler &
+Clark, 2014 ) and could be adapted if SCR data can only be
+collected at a subset of sites."
+"Thirdly, for some sites, the areato which we extrapolated population size was much largerthan the sampled area."
+"This entails the untested assumption
+that density is constant across large areas which almost cer-
+tainly vary in their ecological conditions."
+"Spatially replicatedsampling on Misali suggests that there can be considerable
+variation in density even within a relatively small island
+(Appendix S1, Table S7)."
+"Therefore, ideally, these large areas
+should be further subsampled, and/or future sampling effort
+should be distributed across the archipelago so that ecologi-
+cal gradients potentially important for coconut crabs (e.g.nearby agriculture, distance from human settlements, etc.) are
+well represented and relationships between ecological condi-
+tions and density can be estimated.
+"
+"Metapopulation survey
+recommendations
+While integrating information from data-rich and data-poor
+sites allowed estimation of abundance for the latter, these
+estimates come with high uncertainty, which, in turn, affects
+uncertainty of the metapopulation estimate."
+"Several of thedata-poor subpopulations in this study had extremely few
+(and possibly no) crabs, and repeated visits to such unpro-
+ductive sites, especially when remote, may be hard to justify."
+"At the same time, the return on investment –in terms of
+gains in precision with increased effort –declines at high
+effort (Appendix S1, Figure S1).
+"
+"How to allocate limited effort across subpopulations
+depends on project objectives."
+"If the goal is to determine the
+extent and size of a metapopulation, all potentially occupied
+sites need surveying."
+"A similar argument applies to monitor-ing over time if the goal is to understand extinction/colonisa-
+tion dynamics which will probably occur in small
+subpopulations."
+"In that case, allocating more than a singlevisit to all sites to improve precision is advisable."
+"If the
+objective is enumerating/monitoring the bulk of individuals,
+unproductive sites could be dropped and effort better distrib-uted equitably among remaining subpopulations."
+"In this case,
+Animal Conservation /C15/C15(2023) /C15/C15–/C15/C15ª2023 The Authors."
+Animal Conservation published by John Wiley & Sons Ltd on behalf of Zoological Society of London.
+9T.
+Caro et al.
+"Coconut crabs on Zanzibar
+ 14691795, 0, Downloaded from https://zslpublications.onlinelibrary.wiley.com/doi/10.1111/acv.12896 by CochraneItalia, Wiley Online Library on [10/08/2023]."
+"See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ data imbalance among sites was extreme, and some degree
+of standardization of sampling across the metapopulation is
+likely advisable."
+"Additionally, even single visit surveys could
+be made more useful if additional information on detectabil-ity was collected (e.g. using double observer sampling;
+Royle, 2004b )."
+"Principles of large-scale monitoring designs
+that balance spatial extent and temporal replication (e.g.panel designs in which some locations are visited every year,whereas others are visited at longer time intervals; Urquhart
+& Kincaid ( 1999 )) could be used to determine optimal sam-
+pling strategies for a speci ﬁc study objective.
+"
+"Broader signiﬁcance
+Our study shows how relatively meagre subpopulation data
+can be used to estimate the size of highly fragmented popu-
+lations, something often dismissed as being too dif ﬁcult in
+conservation science studies."
+"Nevertheless, the behaviour ofpopulations in fragmented habitats is central to conservationscience and practice (Fahrig, 2003 ; Haddad et al .,2015 )."
+"It
+is seen in the context of piecemeal habitat destruction which
+occurs during the advance of small-scale agriculture intopristine habitat, land division caused by road networks,
+urban sprawl into rangeland and poorly planned habitat res-
+toration projects."
+"Fragmentation also bedevils populations innature reserves isolated from each other by agriculture, and
+in natural populations living in isolated lakes, mountain top
+habitats, or island archipelagos."
+"Irrespective of whether thesefragmented populations are connected or not, our ability to
+estimate their sizes across these landscapes will make conser-
+vation plans better informed and relevant.
+"
+"Acknowledgements
+"
+"We thank the Revolutionary Government of Zanzibar andDepartment of Forestry and Department of Fisheries for per-missions, numerous Zanzibaris who helped search for crabs
+with us, Ulli Kloiber for logistical support on Chumbe and
+ﬁve reviewers, the editor and the associate editor for helpful
+remarks.
+"
+"Author contributions
+TC conceived of the study and sampled crabs in all the sites,many with RSR."
+JZ conducted research on Misali.
+"L-MG
+conducted research on Chumbe."
+RS analysed the data.
+"TC
+and RS wrote the paper.
+"
+"Conﬂict of interest
+"
+"The authors have no con ﬂict of interest.
+"
